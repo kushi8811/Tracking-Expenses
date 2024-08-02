@@ -1,0 +1,160 @@
+/* General application styling */
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for the balance section */
+.expense-form {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.expense-form h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.expense-form span {
+  font-size: 36px;
+  color: #333;
+}
+
+/* Styling for the income and expense display */
+.expense-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.expense-list div {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.expense-list h4 {
+  margin: 0;
+}
+
+.expense-list p {
+  margin: 5px 0 0;
+  font-size: 24px;
+}
+
+/* Specific styles for income and expense sections */
+.expense-list div:first-of-type {
+  background-color: #e0f8e0; /* Light green for income */
+  border: 2px solid #0f0; /* Green border for income */
+}
+
+.expense-list div:last-of-type {
+  background-color: #f8e0e0; /* Light red for expense */
+  border: 2px solid #f00; /* Red border for expense */
+}
+
+/* Styling for the history list */
+.list {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f4f4f4;
+}
+
+.list h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
+
+/* Styles for income transactions */
+.list li.income {
+  background-color: #e0f8e0; /* Light green for income */
+  color: #0a0; /* Dark green text */
+}
+
+/* Styles for expense transactions */
+.list li.expense {
+  background-color: #f8e0e0; /* Light red for expense */
+  color: #a00; /* Dark red text */
+}
+
+/* Form styling for adding transactions */
+form {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+form h4 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+form input[type="text"] {
+  width: calc(100% - 22px); /* Adjust width to fit padding */
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Button styling */
+button {
+  display: block;
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px auto 0; /* Center the button */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+button:focus {
+  outline: none;
+}
